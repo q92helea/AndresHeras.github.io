@@ -1,0 +1,21 @@
+/* ejercicio0401 Color del fondo de párrafo BLACKGROUND-COLOR */
+parrafo.{
+    background-color: grey;
+}
+
+/*section{
+blackground-color: lightgrey;
+width: 300px;
+border: 25px solid green;
+padding: 25px;
+margin: 25px;
+}*/
+
+/*gradiente*/
+/* gradiente{
+    text-align:center;
+font-size: 5vw;
+padding: 10vw;
+border:solid;
+background: repeating-radial-gradient(grey 20%, white 40%);
+}*/

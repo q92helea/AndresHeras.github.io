@@ -1,0 +1,16 @@
+/*BARRA SOCIAL*/
+    /* - Defino un estilo para la barra social*/
+    #barrasoc ul{
+        display:inline ;
+        text-align: center;
+        font-family: sans-serif;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    /* - Defino un estilo para cada elemento de la lista*/
+     } 
+     #barrasoc li{
+  float: left;
+	margin: 0 0.15em;
+	border: 5px groove #FFAA33;
+     } 

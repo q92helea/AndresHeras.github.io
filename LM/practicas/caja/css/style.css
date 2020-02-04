@@ -1,0 +1,43 @@
+section{
+blackground-color: lightgrey;
+width: 300px;
+border: 25px solid green;
+padding: 25px;
+margin: 25px;
+}
+/*gradiente*/
+gradiente{
+    text-align:center;
+font-size: 5vw;
+padding: 10vw;
+border:solid;
+background: repeating-radial-gradient(grey 20%, white 40%);
+}
+/* Enlaces*/
+a{background-color: white;
+color: blue;
+ border: white 3px solid; 
+ outline: white 3px solid;
+}
+a:visited {
+    background-color: yellow;
+    color:red;
+}
+a:hover {background: black;
+color:white;
+}
+/*CAJA*/
+div {
+    border: black;
+    border-style: solid;
+    border-width:
+    border-color:white;
+    padding-left: 70px;
+    paddibg-right:60px;
+    margin-left:40px;
+    margin-right:40px;
+    border: 1px solid #4CAF50;
+    /*FONDO*/
+    background-color: yellow;
+    background-image: repeating-linear-gradient();
+  }

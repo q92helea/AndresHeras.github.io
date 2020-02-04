@@ -1,0 +1,19 @@
+
+.parrafo{
+    background:grey;
+    border-top: 30px;
+}
+.caja{
+    border:1px solid black;
+    height: 100px;
+    width: 200px;
+  }
+/*.caja {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    }*/
