@@ -7,12 +7,12 @@ body {
 footer,header {
     padding: 1em;
     color: white;
-    background-color: #3aa5d7;
+    background-color:rgb(124, 216, 124);
     clear: left;
     text-align: center;
 }
 .ejercicio {
-    background-color: #3aa5d7;
+    background-color: rgb(124, 216, 124);;
     color: white;
     width: 1;
 }
@@ -26,7 +26,7 @@ footer,header {
     font-style:italic;
 }
 
-/*Barra de navegación*/
+/*Barra de navegación
 ul.navbar {
     list-style-type: none;
     padding: 0;
@@ -46,8 +46,8 @@ ul.navbar li {
 ul.navbar a {
     text-decoration: none;
     list-style-type: none;
-}
-/*LINKS*/
+}*/
+/*LINKS
 
 .wlink {
     color: white;
@@ -73,7 +73,7 @@ a:active,a:link,a:visited {
 }
 article {
     padding: 1em;
-    background:border-box 
+    background:border-box */
 }
 /*TABLA*/
     table.blueTable {
@@ -139,8 +139,7 @@ article {
         padding: 2px 8px;
         border-radius: 5px;
     }
-    img {
-        max-width: 100%;
+    img max-width: 100%;
         height: auto;
     }/*Imágenes RESPONSIVAS:http://xurl.es/2463a */
 
@@ -158,3 +157,4 @@ article {
         text-align: center;
         margin: 0 10px 0 0;
      } 
+        

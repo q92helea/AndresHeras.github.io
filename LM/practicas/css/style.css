@@ -7,12 +7,12 @@ body {
 footer,header {
     padding: 1em;
     color: white;
-    background-color:rgb(124, 216, 124);
+    background-color: #3aa5d7;
     clear: left;
     text-align: center;
 }
 .ejercicio {
-    background-color: rgb(124, 216, 124);;
+    background-color: #3aa5d7;
     color: white;
     width: 1;
 }
@@ -73,7 +73,7 @@ a:active,a:link,a:visited {
 }
 article {
     padding: 1em;
-    background:border-box */
+    background:border-box 
 }
 /*TABLA*/
     table.blueTable {
@@ -139,24 +139,22 @@ article {
         padding: 2px 8px;
         border-radius: 5px;
     }
-    img max-width: 100%;
+    img {
+        max-width: 100%;
         height: auto;
-    }
+    }/*Imágenes RESPONSIVAS:http://xurl.es/2463a */
 
-    /*Imágenes RESPONSIVAS:http://xurl.es/2463a */
-
-menu nav{
-    display: inline;/*Disponer elementos uno detrás de otro en línea*/
-    margin: 0px 20px 0px 0px;/*Dejar espacios entre iconos*/
-}
-/*BARRA SOCIAL*/
-
-#socbar ul{
-    list-style-type: none; /*borrar viñetas de la lista*/
-    text-align: center; /*centrar iconos*/
- } 
-#socbar li{
-    display: inline;/*Disponer elementos uno detrás de otro en línea*/
-    margin: 0px 20px 0px 0px;/*Dejar espacios entre iconos*/
- }
- 
+    /*BARRA SOCIAL*/
+    /* - Defino un estilo para la barra social*/
+    #barrasoc ul{
+        list-style-type: none;
+        text-align: center;
+        text-decoration: none;
+    /* - Defino un estilo para cada elemento de la lista*/
+     } 
+     #barrasoc li{
+        list-style-type: none;
+        display:inline;/*los elementos se dispongan uno detrás de otro*/
+        text-align: center;
+        margin: 0 10px 0 0;
+     } 
