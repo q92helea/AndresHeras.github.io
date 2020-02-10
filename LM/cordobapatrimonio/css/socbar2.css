@@ -1,8 +1,10 @@
 /* Estilo a los parrafos*/
 body {
+    margin-left: auto;
+    margin-right: auto; /*Centrado del texto*/
     font-family: 'Lato', sans-serif;
-    padding: 0;
-    margin: 0;
+    max-width: 1080px;
+}
 h2 {
     font-family:'Times New Roman'
     font-style: italic;
