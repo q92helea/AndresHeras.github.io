@@ -27,8 +27,8 @@
 ~Lenguaje de marcado descriptivo
 }
 
-//Pregunta 5:¿Cuales de las siguientes personas está considerado el creador de la web?::
-~ Tim Burton
-~ Lee Harvey Oswal
+//Pregunta 5:¿Quien es el creador de la web?::
+~ Bill Gates
+~ Richard Stallman
 = Tim Berners
 }
