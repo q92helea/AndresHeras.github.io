@@ -33,6 +33,22 @@ line-height : 50px;
     text-decoration-line: underline;
     font-style: italic;
 }
+/*MENÚ*/
+menu li¨{
+
+background-color: rgb(124, 216, 124);
+
+}
+ul.menu li{
+    display: inline;
+    list-style: none;/*Quito el punto decorativo de la línea*/
+    margin: 0;
+    padding: 0; 
+    background-color:rgb(124, 216, 124);
+}
+
+
+
 
 /*Barra de navegación*/
 ul.navbar {
