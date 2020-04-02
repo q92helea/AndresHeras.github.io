@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+<channel>
+<title>Jose Aguilera. Ejercicio HTML</title>
+<link>http://www.iesgrancapitan.org</link>
+<descritpition>Descripción de la noticia 1</descritpition>
+<item>
+<title>EJERCICIO1. HTML</title>
+<link>http://www.iesgrancapitan.org</link>
+</item>
+<item>
+<title>EJERCICIO2. HTML</title>
+<link>http://www.iesgrancapitan.org</link>
+</item>
+<item>
+<title>EJERCICIO3. HTML</title>
+<link>http://www.iesgrancapitan.org</link>
+</item>
+</channel></rss>
