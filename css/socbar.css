@@ -8,7 +8,15 @@
         display: inline; /*Dispone el la línea en horizontal*/
         border-color: green;
         }
-
+#menup li a {
+            font-family: Arial;
+            font-size: 11px;
+            text-decoration: none;
+            float: left;
+            padding: 10px;
+            background-color: green;
+            color: #fff;
+            }
 /*BARRA SOCIAL*/
 
 #socbar ul {
