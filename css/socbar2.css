@@ -39,7 +39,7 @@ background-color: rgb(124, 216, 124);
 }
 ul.menu li{
     display: inline;
-    list-style: none;/*Quito el punto decorativo de la línea*/
+    list-style-type: none;/*Quito el punto decorativo de la línea*/
     margin: 0;
     padding: 0; 
     background-color:rgb(124, 216, 124);
@@ -73,7 +73,7 @@ ul.navbar a {
 }*/
 
 /*LINKS*/
-
+/*
 a:visited {
     color: purple;
 }
@@ -82,8 +82,8 @@ a:hover {
     border-color: #3aa5d7;
     border-block-end-color: blueviolet;
     background-color: #4daedb
-} */
-
+}
+*/
 /*# --- links sin subrayado ---*/
 /*
 a:active,
@@ -109,7 +109,7 @@ menu nav {
 
 #socbar ul {
 
-    list-style: none;
+    list-style-type: none;
     /*borrar viñetas de la lista*/
     text-align: center;
     /*centrar iconos*/
