@@ -1,12 +1,10 @@
 /* Estilo a los parrafos*/
-body {
+/* body {
     padding-left: 11em;
     padding-right:11em;
     font-family: 'Lato', sans-serif;
-
-}
-footer,
-header {
+} 
+footer,header {
     padding: 1em;
     color: white;
     background-color: rgb(124, 216, 124);
@@ -50,7 +48,7 @@ ul.menu li{
 
 
 
-/*Barra de navegación*/
+/*Barra de navegación
 ul.navbar {
     list-style-type: none;
     padding: 0;
@@ -72,11 +70,11 @@ ul.navbar li {
 ul.navbar a {
     text-decoration: none;
     list-style-type: none;
-}
+}*/
 
 /*LINKS*/
 
-/* a:visited {
+a:visited {
     color: purple;
 }
 a:hover {
@@ -87,7 +85,7 @@ a:hover {
 } */
 
 /*# --- links sin subrayado ---*/
-
+/*
 a:active,
 a:link,
 a:visited {
@@ -107,7 +105,6 @@ menu nav {
     margin: 0px 20px 0px 0px;
     /*Dejar espacios entre iconos*/
 }
-
 /*BARRA SOCIAL*/
 
 #socbar ul {
