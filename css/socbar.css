@@ -1,16 +1,33 @@
+
+
+#menup {
+    padding: 0; /*Eliminamos el padding por defecto*/     
+}
+       
+#menup li {
+        display: inline; /*Dispone el la línea en horizontal*/
+        border-color: green;
+        }
+
 /*BARRA SOCIAL*/
-    /* - Defino un estilo para la barra social*/
-    #barrasoc ul{
-        display:inline ;
-        text-align: center;
-        font-family: sans-serif;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    /* - Defino un estilo para cada elemento de la lista*/
-     } 
-     #barrasoc li{
-  float: left;
-	margin: 0 0.15em;
-	border: 5px groove #FFAA33;
-     } 
+
+#socbar ul {
+
+    list-style-type: none;
+    /*borrar viñetas de la lista*/
+    text-align: center;
+    /*centrar iconos*/
+}
+
+#socbar li {
+    display: inline;
+    /*Disponer elementos uno detrás de otro en línea*/
+    margin: 0px 20px 0px 0px;
+    /*Dejar espacios entre iconos*/
+}
+
+#socbar a:active,
+a:link,
+a:visited {
+    text-decoration: none;
+}
