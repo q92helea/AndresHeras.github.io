@@ -7,7 +7,7 @@
     <meta name="description" content="ejercicios, css">
     <meta name="autor" content="Andrés Heras Leiva">
     <meta name="keywords" content="CSS, caja, background">
-    <link rel="stylesheet" type="text/css" href="../../css/socbar.css">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
     <link rel="icon" type="image/svg+xml" href="images/Pajarita.svg" sizes="any">
     <link rel="icon" type="image/png" href="images/Pajarita.png" sizes="16x16">
 </head>
@@ -17,7 +17,7 @@
         <header>
             <h1>LENGUAJE DE MARCAS </h1>
         </header>
-        <section id="menup">
+        <section>
             <h2>TEMAS</h2>
             <li><a href="U01.html">
                 <h3>UNIDAD 01 Introducción al Lenguaje de Marcas</h3>
@@ -46,47 +46,44 @@
                 <div>
                     &copy;
                     <span id="copyright">
-                        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                        <script>
+                            document.getElementById('copyright').appendChild(document.createTextNode(new Date()
+                                .getFullYear()))
+                        </script>
                     </span>
                     Todos los derechos - Andrés Heras
                 </div>
         </center>
+        <!--------- BARRA SOCIAL -->
         <div id="socbar">
             <ul>
-                <li> <a href="https://www.twitter.com/Andres_H78/" target="_blank"><img
+                <li><a href="https://q92helea.github.io/AndresHeras.github.io/rss/rss.xml" target="_blank">
+                        <img src="../../images/SOCIAL/rss.svg" alt="Logo de RSS" title="mi RSS" width="32" height="32"></a>
+                </li>
+                <li> <a href="https://www.facebook.com/andres.HerasL" target="_blank"><img
                             src="../../images/SOCIAL/036-facebook.svg" alt="Logo de Facebook" title="Logo de Facebook"
                             width="32" height="32"></a></li>
-                <li> <a href="https://www.pnkedin.com/in/andr%C3%A9s-heras-7233572a/" target="_blank"><img
-                            src="../../images/SOCIAL/027-linkedin.svg" alt="Logo de pnkedin" title="Logo de pnkedin"
+                <li> <a href="https://www.linkedin.com/in/andr%C3%A9s-heras-7233572a/" target="_blank"><img
+                            src="../../images/SOCIAL/027-linkedin.svg" alt="Logo de Linkedin" title="Logo de pnkedin"
                             width="32" height="32"></a></li>
                 <li> <a href="https://www.twitter.com/Andres_H78/" target="_blank"><img
-                            src="../../images/SOCIAL/008-twitter.svg" alt="Logo de Twitter" title="Logo de Twitter"
-                            width="32" height="32"></a></li>
+                            src="../../images/SOCIAL/008-twitter.svg" alt="Logo de Twitter" title="Logo de Twitter" width="32"
+                            height="32"></a></li>
                 <li><a href="https://www.youtube.com/channel/UC53fQOSUQ6bFY78JjA4oL_g?view_as=subscriber"
                         target="_blank"><img src="../../images/SOCIAL/001-youtube.svg" alt="Logo de YouTube"
                             title="Logo de YouTube" width="32" height="32"></a></li>
                 <li><a href="https://github.com/q92helea" target="_blank"><img src="../../images/SOCIAL/github.svg"
                             alt="Logo de Github" title="Logo de Github" width="32" height="32"></a></li>
+                
             </ul>
+            <center>
+                <div id="ref">Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik"
+                        title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/"
+                        title="Flaticon">www.flaticon.es</a></div>
+            </center>
         </div>
-        </ul>
-        <div id="where">
-            <a href="../practicas/practicas.html"><img src="../../images/left.svg" title="Atrás" apgn="right" width="32"
-                    height="32"></a>
-
-            <a href="#up"><img src="../../images/up.svg" title="Subir" apgn="right" width="32" height="32"></a></a>
-
-            <a href="../practicas/U03/"><img src="../../images/right.svg" title="Subir" apgn="right" width="32"
-                    height="32"></a>
-        </div>
-        <center>
-            <div id="ref">Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik"
-                    title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/"
-                    title="Flaticon">www.flaticon.es</a></div>
-        </center>
-        </div>
+    </div>
         <!-- El siguiente código HTML es para poner el copyright -->
-
         <!-- <p><sall>&copy; Todos los derechos - Andrés Heras </small></p>-->
     </footer>
 </body>
