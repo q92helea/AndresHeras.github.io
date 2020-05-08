@@ -7,32 +7,32 @@ h1 {
     color: white
 }
 
-.main {
+.tema {
     display: grid;
     grid-template-rows: max-content max-content max-content;
     grid-template-columns: 1fr 1fr 3fr 1fr;
     grid-template-areas:
         "header header header header"
-        "nav   main    main   aside "
+        "nav   tema    tema   aside "
         "footer footer footer footer";
 }
 
-.main header {
+.tema header {
     background-color: green;
     grid-area: header;
 }
 
-.main nav {
+.tema nav {
     display: inline;
     /*Se Dispone en línea horizontal*/
     border-color: green;
 }
 
-.main section {
-    grid-area: main;
+.tema section {
+    grid-area: tema;
 }
 
-.main footer {
+.tema footer {
     background-color: green;
 
     grid-area: footer;
