@@ -1,5 +1,3 @@
-
-<!-- Faltaba el DOCTYPE junto la referencia a una DTD -->
 <html>
   <head>
     <title>
@@ -22,5 +20,5 @@
        Validador
     </a>       
   </body>
-  <!--no estaba cerrada la <htm> -->
-</html>
+  
+</html

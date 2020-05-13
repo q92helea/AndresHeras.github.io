@@ -152,6 +152,19 @@ footer .social a {
 	padding:10px;
 	display: inline-block;
 }
+/*Aplicar estilos de estado de enlace en el orden adecuado:"
+"Los Visitantes Fueron Hasta Alli"
+a:Link{}
+a:Visited{}
+a:Focus{}
+a:Hover{}
+a:Active{}
+
+https://mosaic.uoc.edu/ac/le/es/m6/ud6/index.html#stylinglinks
+*/
+
+
+
  /*Aqui empieza el RESPONSIVE*/
 @media screen and (max-width: 800px) {
 	.contenedor {
