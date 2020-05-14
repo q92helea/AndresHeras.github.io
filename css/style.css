@@ -23,7 +23,7 @@ h1 {
 }
 
 .tema nav {
-    display: flex;
+    grid-area:nav;
     /*Se Dispone en línea horizontal*/
     border-color: green;
 }
