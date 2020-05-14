@@ -1,11 +1,18 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Faltaba la declaración XML-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!-- Faltaba el DOCTYPE junto la referencia a una DTD -->
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--  El elemento raíz del documento no contenía la propiedad xmlns para definir el
+espacio de nombres XHTML. -->
   <head>
     <title>
       Convertir HTML a XHTML
+      <!--Faltaba </title>-->
+      </title>
   </head>
-  <texto del cuerpo = azul>
+  <!--<texto del cuerpo = azul>-->
+
     <h1>       
         Página XHTML
     </h1>
